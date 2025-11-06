@@ -16,7 +16,7 @@
                         "params": [{
                             "segments": "[[selection]]",
                             }],
-						"repeat": "[[repeats]]"
+						"repeat": "[[repeats]]",
                         "entity_id": "[[entity_id]]"
                     }
                 }
