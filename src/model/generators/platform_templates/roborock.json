@@ -15,7 +15,7 @@
                         "command": "app_segment_clean",
                         "params": [{
                             "segments": "[[selection]]",
-                            "repeats": "[[repeats]]"
+                            "repeat": "[[repeats]]"
                         }],
                         "entity_id": "[[entity_id]]"
                     }
@@ -35,7 +35,8 @@
                     "service_data": {
                         "command": "app_zoned_clean",
                         "params": "[[selection]]",
-                        "entity_id": "[[entity_id]]"
+                        "repeat": "[[repeats]]",
+			            "entity_id": "[[entity_id]]"
                     }
                 }
             },
@@ -53,6 +54,7 @@
                     "service_data": {
                         "command": "app_zoned_clean",
                         "params": "[[selection]]",
+			            "repeat": "[[repeats]]",
                         "entity_id": "[[entity_id]]"
                     }
                 }
