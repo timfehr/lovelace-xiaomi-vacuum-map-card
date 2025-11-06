@@ -15,7 +15,7 @@
                         "command": "app_segment_clean",
                         "params": [{
                             "segments": "[[selection]]",
-                            }],
+                        }],
 						"repeat": "[[repeats]]",
                         "entity_id": "[[entity_id]]"
                     }
