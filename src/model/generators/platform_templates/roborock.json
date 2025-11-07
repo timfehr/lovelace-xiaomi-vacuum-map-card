@@ -14,9 +14,9 @@
                     "service_data": {
                         "command": "app_segment_clean",
                         "params": [{
-                            "segments": "[[selection]]"
+                            "segments": "[[selection]]",
+                            "repeat": "[[repeats]]"
                         }],
-						"repeat": "[[repeats]]",
                         "entity_id": "[[entity_id]]"
                     }
                 }
